@@ -7,7 +7,7 @@ The platform is designed with comfort, confidence, and women’s health in mind,
 
 ---
 
-## 🚀 Features
+## Features
 
 ✔ Responsive product browsing experience  
 ✔ **Featured Products** section with images, names, prices, and add‑to‑cart buttons  
