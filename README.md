@@ -9,13 +9,13 @@ The platform is designed with comfort, confidence, and women’s health in mind,
 
 ## Features
 
-✔ Responsive product browsing experience  
-✔ **Featured Products** section with images, names, prices, and add‑to‑cart buttons  
-✔ Multiple **product categories** (e.g., Sanitary Pads, Beauty Products, Makeup)  
-✔ **Customer testimonials** section for social proof  
-✔ **Signup / Login** functionality (front‑end UI available)  
-✔ Email subscription form for community updates  
-✔ Footer with quick links and social media contacts  
+- Responsive product browsing experience  
+- **Featured Products** section with images, names, prices, and add‑to‑cart buttons  
+- Multiple **product categories** (e.g., Sanitary Pads, Beauty Products, Makeup)  
+- **Customer testimonials** section for social proof  
+- **Signup / Login** functionality (front‑end UI available)  
+- Email subscription form for community updates  
+- Footer with quick links and social media contacts  
 ---
 
 ## Tech Stack
