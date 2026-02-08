@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HerEssence</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-gradient-to-r from-pink-700 via-pink-200 to-pink-400 text-gray-800">
+
+<header class="fixed top-0 w-full z-50 transition-all duration-300 bg-transparent" >
+  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+<img src="image.png" alt="HerEssence Logo" class="h-8 md:h-10 lg:h-12 w-auto"/>
+
+    <nav class="hidden md:flex space-x-6 font-medium">
+      <a href="#products" class="hover:text-pink-600"><b>Products</b></a>
+      <a href="#categories" class="hover:text-pink-600"><b>Categories</b></a>
+      <a href="#testimonials" class="hover:text-pink-600"><b>Testimonials</b></a>
+      <a href="#contact" class="hover:text-pink-600"><b>Contact</b></a>
+    </nav>
+  </div>
+</header>
+
+<section class="bg-gradient-to-r from-pink-700 via-pink-200 to-pink-400 mt-[200px]">
+
+  <div class="max-w-7xl mx-auto px-6 text-center">
+
+    <h2 class="text-4xl md:text-5xl font-bold text-pink-700 mb-4 mt-20">
+      Care Designed for Every Woman
+    </h2>
+
+    <p class="text-lg max-w-2xl mx-auto mb-8 mt-12">
+      Discover safe, comfortable, and eco-friendly feminine care products made with love.
+    </p>
+
+    <button class="-ml-5 bg-pink-500 text-white px-6 py-3 rounded-2xl hover:bg-pink-600 m-[33px]"> SignIn </button>
+    
+    <button class="bg-pink-600 text-white px-6 py-3 rounded-2xl hover:bg-pink-700"> SignUp </button>
+
+  </div>
+
+</section>
+
+<!-- ================= FEATURED PRODUCTS (GLASS STYLE) ================= -->
+<section class="py-24">
+
+  <div class="max-w-7xl mx-auto px-6 ">
+
+    <!-- Section Title -->
+    <h3 class="text-4xl font-bold text-center mb-4">
+      Featured Products
+    </h3>
+    <p class="text-center text-pink-100 max-w-2xl mx-auto mb-14">
+      Carefully selected feminine care essentials designed for comfort, confidence, and wellness.
+    </p>
+
+    <!-- Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+
+      <!-- Card -->
+      <div class="relative rounded-2xl p-8 backdrop-blur-xl bg-white/10 border border-white/20 shadow-xl hover:shadow-2xl transition transform hover:-translate-y-2">
+
+        <img src="https://via.placeholder.com/80"
+             alt="Pads"
+             class="mb-6">
+
+        <h4 class="text-xl font-semibold mb-3">
+          Organic Sanitary Pads
+        </h4>
+
+        <p class="text-sm mb-6 text-gray-900">
+          Ultra-soft, breathable, and eco-friendly protection made for sensitive skin.
+        </p>
+
+        <div class="flex items-center justify-between">
+          <span class="font-bold text-lg">$5.99</span>
+          <button class="px-5 py-2 rounded-lg bg-white text-pink-600 font-semibold hover:bg-pink-100 transition"> Add </button>
+        </div>
+
+      </div>
+
+      <div class="relative rounded-2xl p-8 backdrop-blur-xl bg-white/10 border border-white/20 shadow-xl hover:shadow-2xl transition transform hover:-translate-y-2">
+
+        <img src="https://via.placeholder.com/80"
+             alt="Cup"
+             class="mb-6">
+
+        <h4 class="text-xl font-semibold mb-3">
+          Menstrual Cup
+        </h4>
+
+        <p class="text-gray-900 text-sm mb-6">
+          Reusable, medical-grade silicone cup for safe and sustainable periods.
+        </p>
+
+        <div class="flex items-center justify-between">
+          <span class="font-bold text-lg">$12.99</span>
+          <button
+            class="px-5 py-2 rounded-lg bg-white text-pink-600 font-semibold hover:bg-pink-100 transition">
+            Add
+          </button>
+        </div>
+      </div>
+
+      <!-- Card -->
+      <div
+        class="relative rounded-2xl p-8 backdrop-blur-xl bg-white/10 border border-white/20 shadow-xl hover:shadow-2xl transition transform hover:-translate-y-2">
+
+        <img src="https://via.placeholder.com/80"
+             alt="Wipes"
+             class="mb-6">
+
+        <h4 class="text-xl font-semibold mb-3">
+          Feminine Wipes
+        </h4>
+
+        <p class="text-gray-900 text-sm mb-6">
+          Gentle, pH-balanced wipes for freshness anytime, anywhere.
+        </p>
+
+        <div class="flex items-center justify-between">
+          <span class="font-bold text-lg">$4.99</span>
+          <button
+            class="px-5 py-2 rounded-lg bg-white text-pink-600 font-semibold hover:bg-pink-100 transition">
+            Add
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
